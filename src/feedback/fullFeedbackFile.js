@@ -4,7 +4,7 @@ import FeedbackOptions from './feedbackOptions';
 import Section from './section';
 import Notification from './notification';
 
-class Feedback extends Component {
+export default class Feedback extends Component {
     static defaultProps = {
         click:1
     };
@@ -65,5 +65,3 @@ class Feedback extends Component {
         </div>);
     }
 };
-
-export default Feedback;

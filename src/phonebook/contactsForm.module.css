@@ -1,0 +1,43 @@
+.button {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(112, 184, 243);
+  font-size: 15px;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.input {
+  width: 150px;
+  height: 25px;
+  margin: 10px;
+}
+.inputFilter {
+  width: 250px;
+  height: 20px;
+}
+.label {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(8, 31, 122);
+  padding: 5px;
+}
+.firstTitle {
+  font-size: 35px;
+  color: rgb(32, 80, 212);
+}
+.title {
+  font-size: 25px;
+  color: rgb(64, 107, 224);
+}
+.deleteButton {
+  width: 60px;
+  height: 23px;
+  background-color: rgb(112, 184, 243);
+  font-size: 10px;
+  color: white;
+  border-radius: 10px;
+}
